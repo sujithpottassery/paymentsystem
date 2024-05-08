@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>  Shashib Flying Academy - Academic Documents</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+    
+  <header>
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" class="img-fluid logo" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mar-left mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Application Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Payment Status  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Recipt  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Print  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </div><!--row-->
+    </div><!--container-->
+  </header>
+
+
+  <section class="login-section">
+  <div class="login-left-strip-2">
+
+    <div class="application-process-strip">
+      <h5> Application Process </h5>
+      <ul class="lisy-unstyled sidenavbar">
+        <li> <a href="basic-details.html" data-toggle="tooltip" data-placement="right" title="Completed" class="red-tooltip"><span class="fa fa-info-circle" aria-hidden="true"></span> Basic Details   <i class="fa fa-check-circle-o success-check" aria-hidden="true"></i></a> </li>
+        <li> <a href="academic-details.html" data-toggle="tooltip" data-placement="right" title="Not Completed" class="red-tooltip"><span class="fa fa-graduation-cap" aria-hidden="true"></span> Academic Details <i class="fa fa-times-circle-o" aria-hidden="true"></i></a> </li>
+        <li> <a href="academic-documents.html" data-toggle="tooltip" data-placement="right" title="Not Completed" class="red-tooltip"><span class="fa fa-file-text" aria-hidden="true"></span> Academic Documents <i class="fa fa-times-circle-o" aria-hidden="true"></i></a> </li>
+        <li> <a href="payment-charges.html" data-toggle="tooltip" data-placement="right" title="Not Completed" class="red-tooltip"><span class="fa fa-credit-card-alt" aria-hidden="true"></span> Payment <i class="fa fa-times-circle-o" aria-hidden="true"></i></a> </li>
+      </ul><!--sidenavbar-->
+      </div><!--application-process-strip-->
+
+  </div>
+  <div class="login-right-strip-2">
+
+
+
+
+
+<div class="row  mt-90">
+    <div class="col-lg-12">
+        <div class="form-strip">
+            <h4> Upload Your Image </h4>
+             <div class="row">
+  <div class="col-lg-12">
+
+    <div class="file-upload p-0">
+      <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">  Upload File  </button>
+    
+      <div class="image-upload-wrap">
+        <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+        <div class="drag-text">
+          <h3> Passport Size Photo </h3>
+        </div>
+      </div>
+      <div class="file-upload-content">
+        <img class="file-upload-image" src="#" alt="your image" />
+        <div class="image-title-wrap">
+          <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+        </div>
+      </div>
+    </div>
+
+
+  </div><!--col-lg-12-->
+            </div><!--row-->
+            </div><!--form-strip-->
+    </div><!--col-lg-12-->
+</div><!--row-->
+
+
+<div class="login-footer-strip">
+  <button class="btn btn-outline-success save-proceed-btn" type="submit">Save & View</button>
+  <button class="btn btn-outline-success reset-btn" type="submit">Reset</button>
+</div>
+  </div><!--login-right-strip-->
+  </section>
+
+
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js" ></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
